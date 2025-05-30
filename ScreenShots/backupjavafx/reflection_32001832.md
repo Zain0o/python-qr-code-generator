@@ -1,0 +1,5 @@
+# Individual Reflection – Akin Genc (Student ID: 32001832)
+
+I worked on the Web GUI, accessibility, and slideshow The specific code files I worked on were `index.html` for the front-end and styling of the web GUI, and `app.py`, which was used to stitch the backend QR logic to the front end. I used Flask to design and implement the web interface. My contributions made the application usable to users and team members since they can visually see the QR and test if there logic actually worked.  I implemented a slideshow (step-by-step view) to show QR generation process. I also added accessibility features such as colour selection, shape options, and QR sizing.
+The challenge I faced was that the `app.py` file would not run due to an incorrect import statement and a bug in a teammate’s module. After identifying the problem, I communicated the issue to my teammate and explained how the error was affecting the app.py file from running. after the bug was fixed and I corrected the important statement, the app.py ran successfully. This project taught me how to integrate backend processes with front-end design and taught me new tools like flask.
+
