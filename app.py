@@ -40,6 +40,9 @@ from matrix_masking import find_best_pattern, create_function_pattern_matrix
 
 app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return render_template('index.html')
 
 def assemble_qr_matrix(text: str, explain=False):
     # Get data codewords and version
